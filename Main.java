@@ -12,7 +12,7 @@ class Main{
 			i = sc.nextInt();
 			m = sc.nextInt();
 			l = sc.nextInt();
-			if(z == 0 && i ==0 && m == 0 && l == 0){break;}
+			if(z == 0 && i == 0 && m == 0 && l == 0){break;}
 			System.out.println("Case " + s + ": " + countCycle(z, i, m, l));
 		}
 	}
